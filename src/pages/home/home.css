@@ -217,7 +217,7 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
     .hero_text {
-        margin-inline: 40px;
+        margin-inline: 20px;
         margin-top: 40px;
     }
 
@@ -227,7 +227,7 @@
     }
 
     .hero_text_first_block span {
-        font-size: 17.9px;
+        font-size: 18.9px;
     }
 
     .hero_text_second_block a {
@@ -296,11 +296,335 @@
     }
 }
 
-@media (min-width: 425px) and (max-width: 767px) {}
+@media (min-width: 425px) and (max-width: 767px) {
+    .hero_text {
+        margin-inline: 10px;
+        margin-top: 40px;
+    }
 
-@media (min-width: 375px) and (max-width: 424px) {}
+    .hero_text_first_block h1 {
+        font-size: 25px;
+        line-height: 20px;
+    }
 
-@media (min-width: 320px) and (max-width: 374px) {}
+    .hero_text_first_block span {
+        font-size: 17.9px;
+    }
+
+    .hero_text_second_block a {
+        max-width: 160px;
+        min-width: 100px;
+        height: 30px;
+    }
+
+    .hero_text_second_block p {
+        font-size: 14px;
+        width: 230px;
+    }
+
+    .hero_arrow_block img {
+        width: 90vw;
+    }
+
+    .hero_arrow_block_blocks {
+        top: 40px;
+        left: 55px;
+        gap: 10px;
+    }
+
+    .blocks1,
+    .blocks2,
+    .blocks3,
+    .blocks4,
+    .blocks5 {
+        width: 55px;
+    }
+
+    .blocks1 {
+        height: 45px;
+    }
+
+    .blocks2 {
+        height: 60px;
+    }
+
+    .blocks3 {
+        height: 80px;
+    }
+
+    .blocks4 {
+        height: 95px;
+    }
+
+    .blocks5 {
+        height: 120px
+    }
+
+    .hero_third {
+        display: none;
+    }
+
+    .hero_text_second_block {
+        display: flex;
+        gap: 20px;
+        padding-top: 5px;
+        flex-direction: column-reverse;
+    }
+
+
+    .hero_text_second_mobile_block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero_third_mobile {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .hero_third_block_mobile {
+        padding: 1px 55px;
+        border: 1px solid #333333;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_third_block_mobile h3 {
+        font-family: 'TTTravels-ExtraBoldItalic', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        text-align: center;
+    }
+
+    .hero_third_block_mobile span {
+        font-size: 6px;
+        font-family: 'TTTravels-Medium', sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .hero_text {
+        margin-inline: 10px;
+        margin-top: 40px;
+    }
+
+    .hero_text_first_block h1 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .hero_text_first_block span {
+        font-size: 17.9px;
+    }
+
+    .hero_text_second_block a {
+        max-width: 160px;
+        min-width: 100px;
+        height: 30px;
+    }
+
+    .hero_text_second_block p {
+        font-size: 14px;
+        width: 230px;
+    }
+
+    .hero_arrow_block img {
+        width: 95vw;
+    }
+
+    .hero_arrow_block_blocks {
+        top: 37px;
+        left: 53px;
+        gap: 10px;
+    }
+
+    .blocks1,
+    .blocks2,
+    .blocks3,
+    .blocks4,
+    .blocks5 {
+        width: 49px;
+    }
+
+    .blocks1 {
+        height: 45px;
+    }
+
+    .blocks2 {
+        height: 60px;
+    }
+
+    .blocks3 {
+        height: 80px;
+    }
+
+    .blocks4 {
+        height: 95px;
+    }
+
+    .blocks5 {
+        height: 120px
+    }
+
+    .hero_third {
+        display: none;
+    }
+
+    .hero_text_second_block {
+        display: flex;
+        gap: 20px;
+        padding-top: 5px;
+        flex-direction: column-reverse;
+    }
+
+
+    .hero_text_second_mobile_block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero_third_mobile {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .hero_third_block_mobile {
+        padding: 0px 30px;
+        border: 1px solid #333333;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_third_block_mobile h3 {
+        font-family: 'TTTravels-ExtraBoldItalic', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        text-align: center;
+    }
+
+    .hero_third_block_mobile span {
+        font-size: 6px;
+        font-family: 'TTTravels-Medium', sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .hero_text {
+        margin-inline: 10px;
+        margin-top: 40px;
+    }
+
+    .hero_text_first_block h1 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+
+    .hero_text_first_block span {
+        font-size: 17.9px;
+    }
+
+    .hero_text_second_block a {
+        max-width: 160px;
+        min-width: 100px;
+        height: 30px;
+    }
+
+    .hero_text_second_block p {
+        font-size: 12px;
+        width: 180px;
+    }
+
+    .hero_arrow_block img {
+        width: 95vw;
+    }
+
+    .hero_arrow_block_blocks {
+        top: 33px;
+        left: 45px;
+        gap: 10px;
+    }
+
+    .blocks1,
+    .blocks2,
+    .blocks3,
+    .blocks4,
+    .blocks5 {
+        width: 41px;
+    }
+
+    .blocks1 {
+        height: 45px;
+    }
+
+    .blocks2 {
+        height: 60px;
+    }
+
+    .blocks3 {
+        height: 80px;
+    }
+
+    .blocks4 {
+        height: 95px;
+    }
+
+    .blocks5 {
+        height: 110px;
+    }
+
+    .hero_third {
+        display: none;
+    }
+
+    .hero_text_second_block {
+        display: flex;
+        gap: 20px;
+        padding-top: 5px;
+        flex-direction: column-reverse;
+    }
+
+
+    .hero_text_second_mobile_block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .hero_third_mobile {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .hero_third_block_mobile {
+        padding: 0px 30px;
+        border: 1px solid #333333;
+        border-radius: 60px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero_third_block_mobile h3 {
+        font-family: 'TTTravels-ExtraBoldItalic', sans-serif;
+        font-size: 16px;
+        color: #333333;
+        text-align: center;
+    }
+
+    .hero_third_block_mobile span {
+        font-size: 6px;
+        font-family: 'TTTravels-Medium', sans-serif;
+        color: #333333;
+        text-align: center;
+    }
+}
 
 @media (min-width: 2560px) {
     .hero_arrow_block_blocks {

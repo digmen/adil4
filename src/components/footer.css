@@ -88,12 +88,135 @@
     font-family: 'TTTravels-Regular', sans-serif;
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {}
 
-@media (min-width: 768px) and (max-width: 1023px) {}
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        margin-top: 20px;
+        height: 240px;
+    }
 
-@media (min-width: 425px) and (max-width: 767px) {}
+    .footer_up {
+        margin-inline: 20px;
+        padding-top: 37px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-@media (min-width: 375px) and (max-width: 424px) {}
+    .footer_loc span {
+        font-size: 16px;
+    }
 
-@media (min-width: 320px) and (max-width: 374px) {}
+    .footer_up_right {
+        display: flex;
+        gap: 40px;
+    }
+
+    .footer_loc {
+        gap: 50px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+    .footer {
+        margin-top: 20px;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .footer_up {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_loc span {
+        font-size: 16px;
+    }
+
+    .footer_up_right {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_loc {
+        gap: 50px;
+    }
+
+    .footer_up_left {
+        display: flex;
+        gap: 45px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px) {
+    .footer {
+        margin-top: 20px;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .footer_up {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_loc span {
+        font-size: 16px;
+    }
+
+    .footer_up_right {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_loc {
+        gap: 50px;
+    }
+
+    .footer_up_left {
+        display: flex;
+        gap: 45px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+    .footer {
+        margin-top: 20px;
+        height: 100%;
+        gap: 20px;
+    }
+
+    .footer_up {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer_loc span {
+        font-size: 16px;
+    }
+
+    .footer_up_right {
+        display: flex;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer_loc {
+        gap: 50px;
+    }
+
+    .footer_up_left {
+        display: flex;
+        gap: 45px;
+        flex-direction: column;
+        align-items: center;
+    }
+}

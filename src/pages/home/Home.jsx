@@ -17,9 +17,25 @@ export default function Home() {
                         <h1>TURBO RESOURCES<br /> MIDDLE EAST</h1>
                         <span>Welcome to TURBO RESOURCES MIDDLE EAS – Plumbing Professionals!</span>
                     </div>
-                    <div className='hero_text_second_block'>
-                        <a href='#contact'>Contact Us</a>
-                        <p>We offer high-quality plumbing equipment and professional services for home and business. Our mission is to provide reliable solutions that make your life more comfortable and safer. Explore our product catalog, find out about our services and contact us for advice. We are happy to help you with your choice!</p>
+                    <div className='hero_text_second_mobile_block'>
+                        <div className='hero_text_second_block'>
+                            <a href='#contact'>Contact Us</a>
+                            <p>We offer high-quality plumbing equipment and professional services for home and business. Our mission is to provide reliable solutions that make your life more comfortable and safer. Explore our product catalog, find out about our services and contact us for advice. We are happy to help you with your choice!</p>
+                        </div>
+                        <div className='hero_third_mobile'>
+                            <div className='hero_third_block_mobile'>
+                                <h3>1mill</h3>
+                                <span>Active users</span>
+                            </div>
+                            <div className='hero_third_block_mobile'>
+                                <h3>80k+</h3>
+                                <span>Glad clients</span>
+                            </div>
+                            <div className='hero_third_block_mobile'>
+                                <h3>30k+</h3>
+                                <span>Partners</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='hero_arrow_block'>

@@ -128,44 +128,137 @@
 
 @media (min-width: 768px) and (max-width: 1023px) {
 	.about {
-		margin-inline: 40px;
+		margin-inline: 20px;
+	}
+
+	.about_second_block {
+		flex-direction: column;
 	}
 
 	.about_text_block h2 {
-		width: 460px;
+		width: 100%;
+	}
+
+	.about_img_block {
+		display: flex;
+		justify-content: center;
 	}
 
 	.about_list {
-		padding-top: 25px;
-		padding-left: 20px;
-	}
-
-	.about_list ul {
-		padding-left: 30px;
-		padding-top: 15px;
+		padding-top: 30px;
+		padding-left: 40px;
 	}
 }
 
 @media (min-width: 425px) and (max-width: 767px) {
 	.about {
-		margin-inline: 40px;
+		margin-inline: 10px;
+	}
+
+	.about_second_block {
+		flex-direction: column;
 	}
 
 	.about_text_block h2 {
-		width: 460px;
+		width: 100%;
+	}
+
+	.about_img_block {
+		display: flex;
+		justify-content: center;
 	}
 
 	.about_list {
 		padding-top: 25px;
-		padding-left: 20px;
+		padding-left: 0px;
+	}
+
+	.about_img_block img {
+		width: 300px;
 	}
 
 	.about_list ul {
 		padding-left: 30px;
-		padding-top: 15px;
 	}
 }
 
-@media (min-width: 375px) and (max-width: 424px) {}
+@media (min-width: 375px) and (max-width: 424px) {
+	.about {
+		margin-inline: 10px;
+	}
 
-@media (min-width: 320px) and (max-width: 374px) {}
+	.about_second_block {
+		flex-direction: column;
+	}
+
+	.about_text_block h2 {
+		width: 100%;
+	}
+
+	.about_img_block {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about_list {
+		padding-top: 25px;
+		padding-left: 0px;
+	}
+
+	.about_img_block img {
+		width: 300px;
+	}
+
+	.about_list ul {
+		padding-left: 30px;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+	.about {
+		margin-inline: 10px;
+	}
+
+	.about_second_block {
+		flex-direction: column;
+	}
+
+	.about_text_block h2 {
+		width: 100%;
+		font-size: 14px
+	}
+
+	.about_list h3 {
+		font-size: 14px;
+	}
+
+	.about_list li {
+		font-size: 12px;
+	}
+
+	.about_img_block {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about_list {
+		padding-top: 25px;
+		padding-left: 0px;
+	}
+
+	.about_img_block img {
+		width: 300px;
+	}
+
+	.about_list ul {
+		padding-left: 30px;
+	}
+
+	.about_title h1 {
+		font-size: 24px;
+	}
+
+	.about_title strong {
+		font-size: 24px;
+	}
+}

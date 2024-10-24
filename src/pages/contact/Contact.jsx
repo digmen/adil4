@@ -29,7 +29,8 @@ export default function Contact() {
       })
       .then(data => {
         console.log(data.status);
-
+        setName('')
+        setEmail('')
       })
       .catch(error => {
         console.error('Ошибка:', error);
@@ -54,7 +55,7 @@ export default function Contact() {
               <form onSubmit={handleSubmit}>
                 <input
                   placeholder='Phone Number'
-                  type='number'
+                  type='text'
                   id='name'
                   value={name}
                   onChange={e => setName(e.target.value)}

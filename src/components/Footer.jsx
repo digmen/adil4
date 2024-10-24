@@ -29,7 +29,7 @@ export default function Footer() {
                         <a href='#service'>Service</a>
                     </div>
                     <div className='footer_btn'>
-                        <a href='#home'>
+                        <a href='#'>
                             <img src={arrowUp} alt='arrow' />
                         </a>
                     </div>
