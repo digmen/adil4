@@ -1,9 +1,12 @@
 .header {
     margin-top: 40px;
-    margin-inline: 175px;
+    padding-inline: 175px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header_nav_list {
@@ -11,7 +14,28 @@
     gap: 66px;
     padding: 12px 21px;
     background-color: #333333;
-    border-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.sticky_nav {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.sticky_btn,
+.sticky_logo {
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.header_logo {
+    transition: 0.5s;
+    height: 40px;
 }
 
 .herder_nav_list_item a {
@@ -27,4 +51,5 @@
     font-family: 'TTTravels-Medium', sans-serif;
     border-radius: 30px;
     color: white;
+    transition: 0.5s;
 }

@@ -10,7 +10,7 @@ import Contact from '../contact/Contact'
 
 export default function Home() {
     return (
-        <div>
+        <div >
             <main className='hero' id='home'>
                 <div className='hero_text'>
                     <div className='hero_text_first_block'>
