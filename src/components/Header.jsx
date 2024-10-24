@@ -73,7 +73,7 @@ export default function Header() {
                 </ul>
             </div>
             <div className='header_btn'>
-                <a href='#'>Order now</a>
+                <a href='#contact'>Order now</a>
             </div>
         </div>
     )

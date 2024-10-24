@@ -14,40 +14,15 @@ body {
   background-color: #F8F8FF;
 }
 
-@media (min-width: 1024px) and (max-width: 1439px) {
-  .container {
-    width: 950px;
-    margin: 0 auto;
-  }
-}
+@media (min-width: 1024px) and (max-width: 1439px) {}
 
-@media (min-width: 768px) and (max-width: 1023px) {
-  .container {
-    width: 700px;
-    margin: 0 auto;
-  }
-}
+@media (min-width: 768px) and (max-width: 1023px) {}
 
-@media (min-width: 425px) and (max-width: 767px) {
-  .container {
-    width: 400px;
-    margin: 0 auto;
-  }
-}
+@media (min-width: 425px) and (max-width: 767px) {}
 
-@media (min-width: 375px) and (max-width: 424px) {
-  .container {
-    width: 350px;
-    margin: 0 auto;
-  }
-}
+@media (min-width: 375px) and (max-width: 424px) {}
 
-@media (min-width: 320px) and (max-width: 374px) {
-  .container {
-    width: 310px;
-    margin: 0 auto;
-  }
-}
+@media (min-width: 320px) and (max-width: 374px) {}
 
 
 @font-face {

@@ -53,3 +53,39 @@
     color: white;
     transition: 0.5s;
 }
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .header {
+        padding-inline: 40px;
+    }
+
+    .header_nav_list {
+        gap: 45px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .header {
+        padding-inline: 20px;
+        margin-top: 20px;
+    }
+
+    .header_nav_list {
+        gap: 15px;
+        padding: 10px 20px;
+    }
+
+    .header_btn {
+        display: none;
+    }
+
+    .herder_nav_list_item a {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {}
+
+@media (min-width: 375px) and (max-width: 424px) {}
+
+@media (min-width: 320px) and (max-width: 374px) {}

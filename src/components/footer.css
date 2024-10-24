@@ -1,4 +1,5 @@
 .footer {
+    margin-top: 40px;
     background-color: #4169E1;
     height: 325px;
     display: flex;
@@ -86,3 +87,13 @@
     font-weight: 400;
     font-family: 'TTTravels-Regular', sans-serif;
 }
+
+@media (min-width: 1024px) and (max-width: 1439px) {}
+
+@media (min-width: 768px) and (max-width: 1023px) {}
+
+@media (min-width: 425px) and (max-width: 767px) {}
+
+@media (min-width: 375px) and (max-width: 424px) {}
+
+@media (min-width: 320px) and (max-width: 374px) {}

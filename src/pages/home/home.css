@@ -10,7 +10,6 @@
 }
 
 
-
 .hero_text_first_block h1 {
     text-align: end;
     font-size: 78px;
@@ -61,7 +60,7 @@
 .hero_arrow_block_blocks {
     position: absolute;
     top: 136px;
-    right: 192px;
+    left: 192px;
     display: flex;
     align-items: flex-end;
     gap: 20px;
@@ -137,4 +136,179 @@
     font-family: 'TTTravels-Medium', sans-serif;
     color: #333333;
     text-align: center;
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .hero_text {
+        margin-inline: 40px;
+    }
+
+    .hero_text_first_block h1 {
+        font-size: 60px;
+        line-height: 48px;
+    }
+
+    .hero_text_first_block span {
+        font-size: 24.9px;
+    }
+
+    .hero_text_second_block a {
+        min-width: 175px;
+        height: 30px;
+    }
+
+    .hero_text_second_block p {
+        font-size: 14px;
+    }
+
+    .hero_arrow_block img {
+        width: 90vw;
+    }
+
+    .hero_arrow_block_blocks {
+        top: 90px;
+        left: 130px;
+        gap: 15px;
+    }
+
+    .blocks1,
+    .blocks2,
+    .blocks3,
+    .blocks4,
+    .blocks5 {
+        width: 140px;
+    }
+
+    .blocks2 {
+        height: 120px;
+    }
+
+    .blocks3 {
+        height: 170px;
+    }
+
+    .blocks4 {
+        height: 200px;
+    }
+
+    .blocks5 {
+        height: 265px;
+    }
+
+    .hero_third {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero_third_block {
+        padding: 5px 85px;
+    }
+
+    .hero_third_block h3 {
+        font-size: 24px;
+
+    }
+
+    .hero_third_block span {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .hero_text {
+        margin-inline: 40px;
+        margin-top: 40px;
+    }
+
+    .hero_text_first_block h1 {
+        font-size: 45px;
+        line-height: 35px;
+    }
+
+    .hero_text_first_block span {
+        font-size: 17.9px;
+    }
+
+    .hero_text_second_block a {
+        min-width: 175px;
+        height: 30px;
+    }
+
+    .hero_text_second_block p {
+        font-size: 14px;
+    }
+
+    .hero_arrow_block img {
+        width: 90vw;
+    }
+
+    .hero_arrow_block_blocks {
+        top: 68px;
+        left: 96px;
+        gap: 15px;
+    }
+
+    .blocks1,
+    .blocks2,
+    .blocks3,
+    .blocks4,
+    .blocks5 {
+        width: 100px;
+    }
+
+    .blocks1 {
+        height: 50px;
+    }
+
+    .blocks2 {
+        height: 80px;
+    }
+
+    .blocks3 {
+        height: 115px;
+    }
+
+    .blocks4 {
+        height: 150px;
+    }
+
+    .blocks5 {
+        height: 190px;
+    }
+
+    .hero_third {
+        margin-top: 30px;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .hero_third_block {
+        padding: 5px 55px;
+    }
+
+    .hero_third_block h3 {
+        font-size: 20px;
+    }
+
+    .hero_third_block span {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {}
+
+@media (min-width: 375px) and (max-width: 424px) {}
+
+@media (min-width: 320px) and (max-width: 374px) {}
+
+@media (min-width: 2560px) {
+    .hero_arrow_block_blocks {
+        position: absolute;
+        top: 136px;
+        left: 192px;
+        display: flex;
+        align-items: flex-end;
+        gap: 20px;
+    }
 }

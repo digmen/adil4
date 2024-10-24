@@ -98,6 +98,8 @@
     font-size: 20px;
     font-weight: 500;
     font-family: 'TTTravels-Medium', sans-serif;
+    outline: none;
+    border: 1px solid black;
 }
 
 .contact_form input:focus {
@@ -115,3 +117,30 @@
     height: 54px;
     border: none;
 }
+
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+    .contact {
+        margin-inline: 40px;
+    }
+
+    .contact_img_block img {
+        width: 500px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contact {
+        margin-inline: 40px;
+    }
+
+    .contact_img_block img {
+        width: 500px;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px) {}
+
+@media (min-width: 375px) and (max-width: 424px) {}
+
+@media (min-width: 320px) and (max-width: 374px) {}
