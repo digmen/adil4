@@ -1,0 +1,107 @@
+.about {
+	margin-inline: 80px;
+	margin-top: 45px;
+}
+
+.about_title {
+	display: flex;
+	flex-direction: column;
+}
+
+.about_title h1 {
+	font-size: 32px;
+	font-family: 'TTTravels-BlackItalic', sans-serif;
+	color: #333333;
+}
+
+.about_title strong {
+	font-size: 32px;
+	font-family: 'TTTravels-BlackItalic', sans-serif;
+	color: #4169E1;
+}
+
+.dot {
+	margin-top: 16px;
+	display: flex;
+	gap: 4px;
+	align-items: center;
+}
+
+.dot3 {
+	width: 11px;
+	height: 11px;
+	background-color: #4169E1;
+	border-radius: 50%;
+}
+
+.dot4,
+.dot2 {
+	width: 9px;
+	height: 9px;
+	background-color: #4169E170;
+	border-radius: 50%;
+}
+
+.dot5,
+.dot1 {
+	width: 7px;
+	height: 7px;
+	background-color: #4169E150;
+	border-radius: 50%;
+}
+
+.about_second_block {
+	margin-top: 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.about_text_block {
+	display: flex;
+	flex-direction: column;
+}
+
+.about_text_block h2 {
+	width: 722px;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'TTTravels-Medium', sans-serif;
+	color: #333333;
+}
+
+.about_list {
+	padding-top: 54px;
+	padding-left: 80px;
+}
+
+.about_list h3 {
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'TTTravels-Medium', sans-serif;
+	color: #333333;
+}
+
+.about_list ul {
+	padding-left: 60px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+}
+
+.about_list li {
+	position: relative;
+	font-size: 16px;
+	font-weight: 500;
+	font-family: 'TTTravels-Medium', sans-serif;
+	color: #333333;
+}
+
+.about_list li::before {
+	content: '';
+	position: absolute;
+	left: -10px;
+	width: 4px;
+	height: 19px;
+	background-color: #4169E1;
+}

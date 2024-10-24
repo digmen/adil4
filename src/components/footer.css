@@ -1,0 +1,88 @@
+.footer {
+    background-color: #4169E1;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer_up {
+    margin-inline: 80px;
+    padding-top: 37px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_up_left {
+    display: flex;
+    gap: 45px;
+}
+
+.footer_loc {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 270px;
+}
+
+.footer_loc span {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    font-family: 'TTTravels-Medium', sans-serif;
+}
+
+.footer_loc a {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    font-family: 'TTTravels-Medium', sans-serif;
+}
+
+
+.footer_number_email {
+    gap: 6px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_up_right {
+    display: flex;
+    gap: 90px;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer_nav a {
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    font-family: 'TTTravels-Medium', sans-serif;
+}
+
+.footer_btn a {
+    width: 52px;
+    height: 52px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_down {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.footer_down span {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+    font-family: 'TTTravels-Regular', sans-serif;
+}

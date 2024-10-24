@@ -1,0 +1,117 @@
+.contact {
+    margin-inline: 80px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_title h1 {
+    font-size: 32px;
+    font-family: 'TTTravels-BlackItalic', sans-serif;
+    color: #333333;
+}
+
+.contact_title strong {
+    font-size: 32px;
+    font-family: 'TTTravels-BlackItalic', sans-serif;
+    color: #4169E1;
+}
+
+.dot {
+    margin-top: 16px;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.dot3 {
+    width: 11px;
+    height: 11px;
+    background-color: #4169E1;
+    border-radius: 50%;
+}
+
+.dot4,
+.dot2 {
+    width: 9px;
+    height: 9px;
+    background-color: #4169E170;
+    border-radius: 50%;
+}
+
+.dot5,
+.dot1 {
+    width: 7px;
+    height: 7px;
+    background-color: #4169E150;
+    border-radius: 50%;
+}
+
+.contact_second_block {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_text_block {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_text_block h2 {
+    width: 455px;
+    font-size: 23px;
+    font-weight: 500;
+    font-family: 'TTTravels-Bold', sans-serif;
+    color: #333333;
+}
+
+.contact_text_block p {
+    margin-top: 20px;
+    width: 473px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'TTTravels-Regular', sans-serif;
+    color: #333333;
+}
+
+.contact_form {
+    margin-top: 24px;
+}
+
+.contact_form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact_form input {
+    width: 296px;
+    height: 36px;
+    padding-left: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'TTTravels-Medium', sans-serif;
+}
+
+.contact_form input:focus {
+    outline: none;
+}
+
+.contact_form button {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'TTTravels-Medium', sans-serif;
+    background-color: #4169E1;
+    border-radius: 30px;
+    width: 228px;
+    height: 54px;
+    border: none;
+}
