@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import { slide as Menu } from "react-burger-menu";
 
 import './header.css'
 
@@ -49,32 +50,53 @@ export default function Header() {
     }, [])
 
     return (
-        <div className='header'>
-            <div className='header_logo' >
-                <img className='header_logo_img' src={logo} alt='logo' />
+        <>
+            <div className='header'>
+                <div className='header_logo' >
+                    <img className='header_logo_img' src={logo} alt='logo' />
+                </div>
+                <div className='header_nav'>
+                    <ul className='header_nav_list'>
+                        <li className='herder_nav_list_item'>
+                            <a href='#'>Home</a>
+                        </li>
+                        <li className='herder_nav_list_item'>
+                            <a href='#aboutus'>About Us</a>
+                        </li>
+                        <li className='herder_nav_list_item'>
+                            <a href='#products'>Products</a>
+                        </li>
+                        <li className='herder_nav_list_item'>
+                            <a href='#service'>Service</a>
+                        </li>
+                        <li className='herder_nav_list_item'>
+                            <a href='#contact'>Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div className='header_btn'>
+                    <a href='#contact'>Order now</a>
+                </div>
             </div>
-            <div className='header_nav'>
-                <ul className='header_nav_list'>
-                    <li className='herder_nav_list_item'>
-                        <a href='#'>Home</a>
-                    </li>
-                    <li className='herder_nav_list_item'>
-                        <a href='#aboutus'>About Us</a>
-                    </li>
-                    <li className='herder_nav_list_item'>
-                        <a href='#products'>Products</a>
-                    </li>
-                    <li className='herder_nav_list_item'>
-                        <a href='#service'>Service</a>
-                    </li>
-                    <li className='herder_nav_list_item'>
-                        <a href='#contact'>Contact Us</a>
-                    </li>
-                </ul>
-            </div>
-            <div className='header_btn'>
-                <a href='#contact'>Order now</a>
-            </div>
-        </div>
+            <Menu right outerContainerId={"root"} >
+                <a className="menu-item" href="#">
+                    Home
+                </a>
+                <a className="menu-item" href="#aboutus">
+                    About Us
+                </a>
+                <a className="menu-item" href="#service">
+                    Services
+                </a>
+                <a className="menu-item" href="#contact">
+                    Contact us
+                </a>
+                <a className="menu-item" href='#products'>
+                    Products
+                </a>
+            </Menu>
+        </>
     )
 }
